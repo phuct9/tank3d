@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 14905fc3224ef4f48bccf5e0f4c0c1ca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -114,10 +114,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 4179745233266432157, guid: e2cacab0472b4014e967b948785ae19c, type: 3}
-  moveSpeed: 1
+  moveSpeed: 3
   panalGameOver: {fileID: 0}
   panalGameWin: {fileID: 0}
-  firePrefab: {fileID: 0}
+  firePrefab: {fileID: 614333000676876602, guid: 5f2fb84592ffe0946b8ab8f98af1786b, type: 3}
   timeCreateBulletMax: 0.2
 --- !u!54 &8163788459928878931
 Rigidbody:

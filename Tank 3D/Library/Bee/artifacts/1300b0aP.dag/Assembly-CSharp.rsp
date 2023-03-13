@@ -311,6 +311,7 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/addressables/AddressablesManager.cs"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/DataSaver.cs"
 "Assets/Scripts/effects/DestroyEffectPooling.cs"
@@ -318,6 +319,7 @@
 "Assets/Scripts/effects/IDestroy.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/GameLogic.cs"
+"Assets/Scripts/logs/ZzzLog.cs"
 "Assets/Scripts/Player.cs"
 -langversion:9.0
 

@@ -64,6 +64,11 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\GameLogic.cs" />
     <Compile Include="Assets\Scripts\effects\DestroyItem.cs" />
+    <Compile Include="Assets\Scripts\addressables\AddressablesManager.cs" />
+    <Compile Include="Assets\Scripts\logs\ZzzLog.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\AddressableAssetsData\link.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

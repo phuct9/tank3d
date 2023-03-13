@@ -1248,6 +1248,8 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
+  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1338,6 +1340,35 @@ MonoBehaviour:
   cGame: {fileID: 844502584}
   txtScore: {fileID: 1563025607}
   enemyPrefab: {fileID: 8426712648803162162, guid: d0f12b4b7457ca44db73d6d5f70da1bc, type: 3}
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b6886759f43544880606f78a22f9f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetReference:
+    m_AssetGUID: e592510249ced1e418e3068f949a0ac7
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+--- !u!114 &963194231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 392f753b3f055314090218bd2611d892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1061905949
 GameObject:
   m_ObjectHideFlags: 0

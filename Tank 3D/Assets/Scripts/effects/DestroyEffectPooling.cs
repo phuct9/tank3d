@@ -13,7 +13,7 @@ public class DestroyEffectPooling : MonoBehaviour
     }
 
     public List<Pool> pools;
-    public Dictionary<string, Queue<GameObject>> poolDictionary;
+    private Dictionary<string, Queue<GameObject>> poolDictionary;
 
     #region Singleton
     public static DestroyEffectPooling Instance;

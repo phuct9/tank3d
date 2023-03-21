@@ -518,6 +518,9 @@ MonoBehaviour:
   - tag: PlayerDestroyItem
     prefab: {fileID: 2020388775155180730, guid: d37a3e06ed2d90c4aa5262a34830c08d, type: 3}
     size: 3
+  - tag: enemy
+    prefab: {fileID: 8426712648803162162, guid: d0f12b4b7457ca44db73d6d5f70da1bc, type: 3}
+    size: 100
 --- !u!1 &416230147
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,7 +1342,6 @@ MonoBehaviour:
   cFirst: {fileID: 608449342}
   cGame: {fileID: 844502584}
   txtScore: {fileID: 1563025607}
-  enemyPrefab: {fileID: 8426712648803162162, guid: d0f12b4b7457ca44db73d6d5f70da1bc, type: 3}
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0

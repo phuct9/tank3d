@@ -60,15 +60,12 @@
     <Compile Include="Assets\Scripts\DataSaver.cs" />
     <Compile Include="Assets\Scripts\effects\DestroyEffectPooling.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\addressables\AddressablesManager.cs" />
     <Compile Include="Assets\Scripts\effects\IDestroy.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\GameLogic.cs" />
-    <Compile Include="Assets\Scripts\effects\DestroyItem.cs" />
-    <Compile Include="Assets\Scripts\addressables\AddressablesManager.cs" />
     <Compile Include="Assets\Scripts\logs\ZzzLog.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\AddressableAssetsData\link.xml" />
+    <Compile Include="Assets\Scripts\effects\DestroyItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

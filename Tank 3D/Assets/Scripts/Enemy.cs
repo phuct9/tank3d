@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, IDestroy
 {
     public GameObject objText;//text show live count
 
@@ -23,7 +23,8 @@ public class Enemy : MonoBehaviour
     {
         if (transform.position.z < Camera.main.transform.position.z)
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 
@@ -32,7 +33,8 @@ public class Enemy : MonoBehaviour
         live--;
         if (live <= 0)
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            gameObject.SetActive(false);
             for(int i=0;i<3;i++)
                 DestroyEffectPooling.Instance.spawnFromPool("EnemyDestroyItem", transform.position, Quaternion.identity);
         }
@@ -62,4 +64,8 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    public void OnObjectSpawn()
+    {
+
+    }
 }

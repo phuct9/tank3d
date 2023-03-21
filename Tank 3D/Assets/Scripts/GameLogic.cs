@@ -17,7 +17,7 @@ public class GameLogic : MonoBehaviour
     public GameObject cFirst;//UI top
     public GameObject cGame;//UI game play
     public Text txtScore;
-    public GameObject enemyPrefab;
+    //public GameObject enemyPrefab;
 
     private float timeCreateEnemy = 10;
     private Quaternion rotateCam;//goc quay cua camera
@@ -39,7 +39,8 @@ public class GameLogic : MonoBehaviour
             float zz = Camera.main.transform.position.z + 50;
             for (int xx = -4; xx < 5; xx++)
             {
-                GameObject obj = Instantiate(enemyPrefab, new Vector3(xx, 0, zz), Quaternion.identity);
+                //GameObject obj = Instantiate(enemyPrefab, new Vector3(xx, 0, zz), Quaternion.identity);
+                GameObject obj = DestroyEffectPooling.Instance.spawnFromPool("enemy", new Vector3(xx, 0, zz), Quaternion.identity);
             }
         }
         txtScore.text = "" + DataSaver.SCORE;
